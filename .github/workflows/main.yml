@@ -24,6 +24,6 @@ jobs:
           context: ./scr
           file: ./scr/Dockerfile
           push: true
-          tags: 
+          tags: |
             nieremberg/rotten-potatoes:latest
             nieremberg/rotten-potatoes:${{ github.run_number }}
